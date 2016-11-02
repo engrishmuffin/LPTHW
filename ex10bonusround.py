@@ -1,0 +1,18 @@
+print "this is an excercise in \"escape sequences.\""
+print "Escape sequences are special commands used within strings that tells python to print special characters.\nThis string is written on one line, and uses \"\\n\" for line breaks.\nAdditionally \"\\\'\" is used to write quotes without breaking a string.\nTo write a \"\\\" type in \"\\\\\"."
+#the following are experiments in escape sequences
+
+print "ASCII bell (BEL):\aexample, command: \"\\a\""
+print "ASCII backspace (BS):\bexample, command: \"\\b\""
+print "ASCII formfeed (FF):\fexample, command: \"\\f\""
+print "ASCII linefeed (LF):\nexample, command: \"\\n\""
+print "Character named name in the unicode database (unicode only) \"\\N{name}\".\n\t I guess I'll learn more about the unicode database later."
+print "Carriage Return (CR):\rexample, command: \"\\r\"\nThe above is Carriage Return (CR). Apparently it deletes everything in the line before the command.\nI wonder how it interacts with \\n.\r Here is some more text after another Carriage Return."
+print "Horizontal Tab (TAB):\texample, command: \"\\t\""
+print "Character with 16-bit hex value xxxx (u\" string only):\uxxxx example, command: \"\\uxxxx\""
+print "Character with 32-bit hex value xxxxxxxx (u\" string only):\Uxxxxxxxx example, command: \"\\Uxxxxxxxx\""
+print "\t I have NO IDEA what these hex value characters are supposed to be."
+print "ASCII vertical tab (VT):\vexample, command: \"\\v\""
+print "Character with octal value ooo:\oooexample, command: \"\\ooo\""
+print "Character with hex value hh:\xhhexample, command: \"\\xhh\""
+print "\t I have no idea what those above two are for, either."
