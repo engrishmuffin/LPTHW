@@ -7,7 +7,7 @@ print "If you don't want that, hit CTRL-C (^C)."
 print "If you do want that, hit Return."
 #Prompt user to proceed or close script.
 raw_input("?")
-# Update user and open file.
+# Update user and open file, define the opened file as 'target'
 print "Opening the file..."
 target = open(filename, 'w')
 # Update user and truncate file.
