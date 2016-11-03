@@ -19,13 +19,15 @@ print "Now I'm going to ask you for three lines."
 line1 = raw_input("line 1: ")
 line2 = raw_input("line 2: ")
 line3 = raw_input("line 3: ")
-# toprint = (line1, "\n", line2, "\n", line3, "\n")
+#converts above variables into a single string with newlines.
 toprint = "%s \n%s \n%s \n" % (line1, line2, line3)
-
+# print the above string.
 print toprint
 print "I'm going to write these to the file."
-#writes the following lines on lines 1, 2, and 3 of the text.
+# New Code: writes above string in a single command.
 target.write(toprint)
+# Old code:
+# writes the above on lines 1, 2, and 3 of the text.
 # target.write(line1)
 # target.write("\n")
 # target.write(line2)
