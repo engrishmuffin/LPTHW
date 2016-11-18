@@ -7,7 +7,7 @@ tabby_cat = "\tI'm tabbed in."
 #use '\n to make a new line'
 persian_cat = "I'm split\non a line."
 #use double-backslash to, well, I dunno yet.
-backslash_cat = "I'm \\ a \\ cat."
+backslash_cat = "I'm \\ a \\ cat." #print backslashes, duh.
 
 #use 3 double-quotes to do whatever you want.
 fat_cat = """
