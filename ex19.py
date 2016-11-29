@@ -24,7 +24,7 @@ cheese_and_crackers(10 + 20, 5 + 6)
 # define vars with arguments that combine vars and numbers
 print "And we can combine the two, variables and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
-
+# This is the part where it gets tricky. Study drills.
 def partytime(invites, rooms, hours, snacks, drinks):
     print "Let's throw a party!"
     print "We'll invite %r people." % invites
@@ -38,6 +38,20 @@ partytime(10, 3, 4, 6, 20)
 roommates = 4
 invites = roommates * 5
 partytime(invites, 3 + roommates / 4, 3 + roommates / 4 * 2, 3 + roommates / 4 * invites, 3 + roommates / 4 * invites * 2)
+
+def drill0 ():
+    print "Now for some more study drills..."
+
+arg1 = raw_input("What is your name? ")
+arg2 = arg1
+def drill1 (arg1):
+    print "Hello, %r" % arg1
+def drill2 (arg2):
+    print "So, %r, Let's play a game!" % arg2
+
+drill0()
+drill1(arg1)
+drill2(arg2)
 
 # prompt = "\n>"
 # print "how many people live in your house?"

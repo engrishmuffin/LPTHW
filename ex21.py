@@ -29,3 +29,13 @@ print "Here is a puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print "that becomes: ", what, "Can you do it by hand?"
+def answer(a, b, c, d):
+    print "Calculating %d - %d * %d / %d." (a, b, c, d)
+    return a - b * c / d
+
+# def answer(a, b, c, d):
+#     print "Calculating %d - %d * %d / %d." (a, b, c, d)
+#     return a - b * c / d
+answer = age 35 - (74 * height * (weight / iq))
+
+print "the answer is ", answer, ". Pretty neat, huh?"
