@@ -36,6 +36,6 @@ def answer(a, b, c, d):
 # def answer(a, b, c, d):
 #     print "Calculating %d - %d * %d / %d." (a, b, c, d)
 #     return a - b * c / d
-answer = age 35 - (74 * height * (weight / iq))
+answer = age - (74 * height * (weight / iq))
 
 print "the answer is ", answer, ". Pretty neat, huh?"

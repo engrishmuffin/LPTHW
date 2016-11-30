@@ -3,7 +3,7 @@ from sys import argv
 script, input_file = argv
 # print_all reads a document and prints it to the console
 def print_all(f):
-    print f.print_all
+    print f.read
 # rewind sets the reader back to the beginning of a document
 def rewind(f):
     print f.seek(0)
@@ -27,8 +27,8 @@ current_line = 1
 # Runs print_a_line on current_line
 print_a_line(current_line, current_file)
 # moves current_line to the next line in the doc and runs print_a_line
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
 # moves current_line to the next line in the doc and runs print_a_line again
-current_line = current_line +1
+current_line += 1
 print_a_line(current_line, current_file)
