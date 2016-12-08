@@ -18,6 +18,6 @@ txt_again = open(file_again)
 print txt_again.read()
 # closes the opened file which was used to define txt_again.
 txt_again.close();
-# this should cause an error, because txt_again is closed.
+# the next line should cause an error, because txt_again is closed.
 # print txt_again.read()
 # it DID, it DID cause an error!!!

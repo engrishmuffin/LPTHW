@@ -28,4 +28,3 @@ w = "This is the left side of..."
 e = "a string with a right side."
 #Print the two variables together on the same line to make a sentence.
 print w + e
-print w, e
